@@ -3,6 +3,8 @@ MeasureWidget
 
 Measure Widget for use with the ArcGIS Viewer for Flex
 
+08/16/2013 - Compiled for FlexViewer 3.4
+
 05/24/2013 - Compiled for FlexViewer 3.3
 
 01/07/2013 - Updated the download to include updates for the 3.0 version. Updated interface to display the measure form properly. Removed the cumulative total when drawing polyline is complete.
