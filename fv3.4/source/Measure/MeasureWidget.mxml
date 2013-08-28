@@ -868,14 +868,17 @@
 						}
 						case Geometry.POLYGON:
 						{
-							var polygon:Polygon = Polygon(geom);							
+							var polygon:Polygon = Polygon(geom);
+							polygon.spatialReference = geom.spatialReference;
 							var areasAndLengthsParameters:AreasAndLengthsParameters = new AreasAndLengthsParameters();
 							if (measureMapUnits == "esriMeters") {
 								areasAndLengthsParameters.areaUnit = GeometryService.UNIT_SQUARE_METERS;
 							} else {
 								areasAndLengthsParameters.areaUnit = GeometryService.UNIT_SQUARE_FEET;
+								areasAndLengthsParameters.lengthUnit = GeometryService.UNIT_FOOT;
+								areasAndLengthsParameters.calculationType = "preserveShape";
 							}
-							areasAndLengthsParameters.polygons = [ polygon ];							
+							areasAndLengthsParameters.polygons = [ polygon ];
 							geometryService.areasAndLengths(areasAndLengthsParameters);
 							break;
 						}
@@ -1435,6 +1438,7 @@
 				var length:Number = (event.result.lengths as Array)[0] * convDist;
 				
 				var label:String = createAreasAndLengthsLabel(area, abbrArea, length, abbrDist);
+				var sr:String = map.spatialReference.wkt;
 				addDrawLabel(label, lastDrawnGraphic, editGraphic, isEditing);
 				
 			}
