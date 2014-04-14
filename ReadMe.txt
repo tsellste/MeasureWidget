@@ -1,6 +1,8 @@
-MeasureWidget 3.3 - 5/24/2013
+MeasureWidget 3.6 - 04/14/2014
 
-The Measure Widget - Compiled for the FlexViewer Version 3.4
+The Measure Widget - Compiled for the FlexViewer Version 3.6
+
+04/14/2014 - Compiled for FlexViewer 3.6
 
 08/28/2013 - Fixed problem for calculating area in State Plane feet found by Josh White.  The problem occured when the polygon was passed to the geometry service and the service was returning values in meters.  Changes were made to the widget to be more explicit about the values returned.
 
