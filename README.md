@@ -3,6 +3,8 @@ MeasureWidget
 
 Measure Widget for use with the ArcGIS Viewer for Flex
 
+02/06/2015 - Compiled for FlexViewer 3.7
+
 04/14/2014 - Compiled for FlexViewer 3.6
 
 08/28/2013 - Fixed problem for calculating area in State Plane feet found by Josh White.  The problem occured when the polygon was passed to the geometry service and the service was returning values in meters.  Changes were made to the widget to be more explicit about the values returned.

@@ -1,6 +1,8 @@
-MeasureWidget 3.6 - 04/14/2014
+MeasureWidget 3.7 - 02/06/2015
 
-The Measure Widget - Compiled for the FlexViewer Version 3.6
+The Measure Widget - Compiled for the FlexViewer Version 3.7
+
+02/06/2015 - Compiled for FlexViewer 3.7
 
 04/14/2014 - Compiled for FlexViewer 3.6
 
