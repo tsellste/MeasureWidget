@@ -3,6 +3,8 @@ MeasureWidget
 
 Measure Widget for use with the ArcGIS Viewer for Flex
 
+#####[Hosted example and extended discussion](http://www.arcgis.com/home/item.html?id=36a80475e5d740279854398d3f7b6d01)
+
 02/06/2015 - Compiled for FlexViewer 3.7
 
 04/14/2014 - Compiled for FlexViewer 3.6
